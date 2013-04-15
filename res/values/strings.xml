@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Threads</string>
+    <string name="menu_kill">Kill Process</string>
+
+</resources>
