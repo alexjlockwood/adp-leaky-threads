@@ -12,7 +12,7 @@ public class MainActivity extends Activity {
   private TextView mDisplay;
 
   // TODO: set this to '1', '2', or '3'
-  private int mExample = 2;
+  private int mExample = 1;
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
