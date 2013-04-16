@@ -74,13 +74,14 @@ public class MainActivity extends Activity {
   /***** EXAMPLE TWO *****/
   /***********************/
 
+
   /**
-   * This example avoids leaking an Activity context by declaring the thread as
-   * a private static inner class, but the threads still continue to run even
-   * across configuration changes. The JVM has a reference to all running
-   * threads and does not whether or not these threads garbaged collected has
-   * nothing to do with the Activity lifecycle. Threads which are left active
-   * will continue to run until the kernel destroys your application's process.
+   * This example avoids leaking an Activity context by declaring the thread as 
+   * a private static inner class, but the threads still continue to run even 
+   * across configuration changes. The DVM has a reference to all running 
+   * threads and whether or not these threads are garbaged collected has nothing
+   * to do with the Activity lifecycle. Active threads will continue to run until
+   * the kernel destroys your application's process.
    */
   private void exampleTwo() {
     new MyThread().start();
