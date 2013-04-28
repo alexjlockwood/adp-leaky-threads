@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Threads</string>
-    <string name="menu_kill">Kill Process</string>
+    <string name="app_name">Leaky Threads</string>
+    <string name="menu_trigger_config_change">Trigger Config Change</string>
+    <string name="menu_kill_process">Kill Process</string>
+    <string name="example_one">Example One</string>
+    <string name="example_two">Example Two</string>
+    <string name="example_three">Example Three</string>
 
 </resources>
